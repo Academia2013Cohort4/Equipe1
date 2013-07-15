@@ -1,0 +1,29 @@
+static var health : float = 100.0;
+var player : Transform;
+var speed = 5.0;
+var chaseRange = 50.0;
+var dieRange = 5.0;
+private var controller : CharacterController;
+ 
+function Start()
+{
+    controller = GetComponent(CharacterController);
+}
+ 
+function Update()
+{
+    if (player == null)
+        return;
+ 
+    var range = Vector3.Distance(player.position, transform.position);
+    if (range <= dieRange)
+    {
+        Destroy(player.gameObject);
+    }
+    else if (range <= chaseRange)
+    {
+        transform.LookAt(player);
+        var moveDirection : Vector3 = transform.TransformDirection(Vector3.forward);
+        controller.Move(moveDirection * Time.deltaTime * speed);
+    }
+}
