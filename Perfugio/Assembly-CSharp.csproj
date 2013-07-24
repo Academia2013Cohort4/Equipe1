@@ -46,10 +46,13 @@
   <ItemGroup>
      <Compile Include="Assets\Real Assets\DoorDemo\Door.cs" />
      <Compile Include="Assets\Real Assets\DoorDemo\RotatingDoor.cs" />
-     <Compile Include="Assets\Real Assets\FlashlightToggle.cs" />
-     <Compile Include="Assets\Real Assets\HUD.cs" />
-     <Compile Include="Assets\Real Assets\PickUp.cs" />
+     <Compile Include="Assets\Real Assets\Script\Elev.cs" />
      <Compile Include="Assets\Real Assets\Script\Elevator.cs" />
+     <Compile Include="Assets\Real Assets\Script\FlashlightToggle.cs" />
+     <Compile Include="Assets\Real Assets\Script\HUD.cs" />
+     <Compile Include="Assets\Real Assets\Script\Key.cs" />
+     <Compile Include="Assets\Real Assets\Script\PickUp.cs" />
+     <Compile Include="Assets\Real Assets\Script\PlayerLose.cs" />
      <Compile Include="Assets\Real Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
   </ItemGroup>

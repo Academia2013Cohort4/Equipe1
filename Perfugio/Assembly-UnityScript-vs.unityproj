@@ -45,16 +45,16 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Mike\RunForestRun.js" />
-     <Compile Include="Assets\Real Assets\RandomLightIntensity.js" />
      <Compile Include="Assets\Real Assets\Script\AI.js" />
-     <Compile Include="Assets\Real Assets\Script\AI1.js" />
+     <Compile Include="Assets\Real Assets\Script\Crosshair.js" />
+     <Compile Include="Assets\Real Assets\Script\RandomLightIntensity.js" />
+     <Compile Include="Assets\Real Assets\Script\hover Script.js" />
+     <Compile Include="Assets\Real Assets\Script\stamina.js" />
      <Compile Include="Assets\Real Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
      <Compile Include="Assets\Real Assets\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
      <Compile Include="Assets\Real Assets\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.js" />
      <Compile Include="Assets\Real Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
      <Compile Include="Assets\Real Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
-     <Compile Include="Assets\Real Assets\hover Script.js" />
-     <Compile Include="Assets\Real Assets\stamina.js" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>

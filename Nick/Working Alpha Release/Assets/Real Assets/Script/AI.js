@@ -9,7 +9,7 @@ var distance;
     function Update () 
     {
     distance = Vector2.Distance(target.position, transform.position);
- 
+
     if(distance < lookAtDistance)
     {
     isItAttacking = false;
@@ -46,10 +46,3 @@ function attack ()
     
 }
 
-function OnTriggerEnter ( Enemy: Collider )
-{
-    if (Enemy.tag == "Player")
-    {
-        Application.LoadLevel ("GameOver");
-    }
-}

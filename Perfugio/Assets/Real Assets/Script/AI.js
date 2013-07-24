@@ -1,15 +1,15 @@
 var distance;
     var target : Transform;    
-    var lookAtDistance = 15.0;
-    var attackRange = 10.0;
-    var moveSpeed = 5.0;
+    var lookAtDistance = 200;
+    var attackRange = 200;
+    var moveSpeed = 2;
     var damping = 6.0;
     private var isItAttacking = false;
  
     function Update () 
     {
-    distance = Vector3.Distance(target.position, transform.position);
- 
+    distance = Vector2.Distance(target.position, transform.position);
+
     if(distance < lookAtDistance)
     {
     isItAttacking = false;
@@ -26,7 +26,7 @@ var distance;
     }
     if(isItAttacking)
     {
-    renderer.material.color = Color.red;   // When it's actually cashing you 'n shit. S'pretty awesome. Paul loves it.
+    renderer.material.color = Color.red;   // When it's actually chasing you 'n shit. S'pretty awesome. Paul loves it. Michael too.
     }
 }
  
@@ -42,9 +42,7 @@ function attack ()
     isItAttacking = true;
     renderer.material.color = Color.red;
  
-    transform.Translate(Vector3.forward * moveSpeed *Time.deltaTime);
-    
+     transform.position += transform.forward * moveSpeed * Time.deltaTime;   
     
 }
 
-  
