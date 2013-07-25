@@ -44,12 +44,17 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Mike\Scripts\GameSettings.cs" />
+     <Compile Include="Assets\Mike\Scripts\KillClown.cs" />
+     <Compile Include="Assets\Mike\Scripts\MoveClown.cs" />
+     <Compile Include="Assets\Mike\Scripts\Testing.cs" />
      <Compile Include="Assets\Real Assets\DoorDemo\Door.cs" />
      <Compile Include="Assets\Real Assets\DoorDemo\RotatingDoor.cs" />
      <Compile Include="Assets\Real Assets\Script\Elev.cs" />
      <Compile Include="Assets\Real Assets\Script\Elevator.cs" />
      <Compile Include="Assets\Real Assets\Script\FlashlightToggle.cs" />
      <Compile Include="Assets\Real Assets\Script\HUD.cs" />
+     <Compile Include="Assets\Real Assets\Script\KeepSong.cs" />
      <Compile Include="Assets\Real Assets\Script\Key.cs" />
      <Compile Include="Assets\Real Assets\Script\PickUp.cs" />
      <Compile Include="Assets\Real Assets\Script\PlayerLose.cs" />

@@ -10,12 +10,11 @@ public class Elev : MonoBehaviour {
 	 
     void OnTriggerStay(Collider _collider) {
 		if (_collider.tag == "Player") {
-			
+	
+			    	helpText.text = "Press 'E' to use";
 			
 			if (Input.GetKey(KeyCode.E)) { Debug.Log(gameManager.GetComponent<HUD>().haskey);
 				if (gameManager.GetComponent<HUD>().haskey==true) {
-						Debug.Log("in");
-			    	helpText.text = "Press 'E' to use";
 						
 			    	Application.LoadLevel("lvl 2");
 			 			

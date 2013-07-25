@@ -14,7 +14,7 @@ public class PlayerLose : MonoBehaviour {
 	}
 	
 	void OnTriggerEnter ( Collider _collider )
-	{ Debug.Log("why");
+	{
     	if (_collider.tag == "Player")
     	{
         	Application.LoadLevel ("GameOver");
