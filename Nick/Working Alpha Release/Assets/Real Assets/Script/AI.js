@@ -2,7 +2,7 @@ var distance;
     var target : Transform;    
     var lookAtDistance = 200;
     var attackRange = 200;
-    var moveSpeed = 2;
+    var moveSpeed = 2.5;
     var damping = 6.0;
     private var isItAttacking = false;
  
