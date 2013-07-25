@@ -42,7 +42,7 @@ function attack ()
     isItAttacking = true;
     renderer.material.color = Color.red;
  
-     transform.position += transform.forward * moveSpeed * Time.deltaTime;   
+     transform.position += transform.move * moveSpeed * Time.deltaTime;   
     
 }
 
