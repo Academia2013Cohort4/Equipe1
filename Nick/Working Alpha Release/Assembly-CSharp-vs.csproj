@@ -58,6 +58,7 @@
      <Compile Include="Assets\Real Assets\Script\Key.cs" />
      <Compile Include="Assets\Real Assets\Script\PickUp.cs" />
      <Compile Include="Assets\Real Assets\Script\PlayerLose.cs" />
+     <Compile Include="Assets\Real Assets\Script\WinScript.cs" />
      <Compile Include="Assets\Real Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
  <Reference Include="Assembly-UnityScript-firstpass">

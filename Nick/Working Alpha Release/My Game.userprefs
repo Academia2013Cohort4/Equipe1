@@ -1,11 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Mike\Scripts\KillClown.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Real Assets\Script\WinScript.cs">
     <Files>
-      <File FileName="Assets\Real Assets\Script\HUD.cs" Line="6" Column="1" />
+      <File FileName="Assets\Real Assets\Script\WinScript.cs" Line="23" Column="6" />
+      <File FileName="Assets\Real Assets\Script\Elev.cs" Line="30" Column="2" />
+      <File FileName="Assets\Mike\Scripts\KillClown.cs" Line="22" Column="1" />
       <File FileName="Assets\Mike\Scripts\GameSettings.cs" Line="24" Column="1" />
+      <File FileName="Assets\Real Assets\Script\HUD.cs" Line="6" Column="1" />
       <File FileName="Assets\Mike\Scripts\MoveClown.cs" Line="15" Column="96" />
-      <File FileName="Assets\Mike\Scripts\KillClown.cs" Line="13" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
