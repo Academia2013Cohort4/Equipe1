@@ -44,9 +44,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Mike\RunForestRun.js" />
-     <Compile Include="Assets\Real Assets\Script\AI.js" />
+     <Compile Include="Assets\Mike\Scripts\RunForestRun.js" />
+     <Compile Include="Assets\Real Assets\Script\BACKUP\AI_BACKUP.js" />
      <Compile Include="Assets\Real Assets\Script\Crosshair.js" />
+     <Compile Include="Assets\Real Assets\Script\PlayerSound.js" />
      <Compile Include="Assets\Real Assets\Script\RandomLightIntensity.js" />
      <Compile Include="Assets\Real Assets\Script\hover Script.js" />
      <Compile Include="Assets\Real Assets\Script\stamina.js" />

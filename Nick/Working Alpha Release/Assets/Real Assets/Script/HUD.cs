@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 
 public class HUD : MonoBehaviour {
+	
 
 	public bool haskey = false;	
 	public GameObject player;
